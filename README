@@ -1,3 +1,6 @@
+Ballfield 1.0 SDL 1.2
+=====================
+
 
                      Ballfield
                      ---------
@@ -51,3 +54,11 @@ Building for arm / arm64
 run with:
 	
 	./ballfield
+
+
+## X64
+[![X64 screenshot](https://github.com/avafinger/ballfield-1.0/raw/master/img/ballfiled-3.png)]
+
+
+## Arm64
+[![Arm64 screenshot](https://github.com/avafinger/ballfield-1.0/raw/master/img/ballfiled-3.png)]
