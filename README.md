@@ -57,4 +57,4 @@ run with:
 
 
 ## Arm64
-[![Arm64 screenshot](https://github.com/avafinger/ballfield-1.0/raw/master/img/ballfiled-3.png)]
+[![Arm64 screenshot](https://github.com/avafinger/ballfield-1.0/raw/master/img/ballfiled-1.png)]
