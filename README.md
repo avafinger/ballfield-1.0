@@ -1,0 +1,60 @@
+Ballfield 1.0 SDL 1.2
+=====================
+
+	Here's a cute little thing that should bring back
+	memories from the days of the Amiga and Atari ST,
+	and the old demo scene culture. I played with other
+	stuff most of the time on my Amiga, so I guess I'll
+	have my fun now, when it's dead simple and you
+	don't even have to hack any asm code! ;-)
+	
+	
+	The program supports a few command line options:
+	
+		-f	Fullscreen
+		-nd	No Double Buffering
+		-h	Use Hardware Surface
+		-<n>	Depth = <n> bits
+		-na	Don't use antialiazing
+	
+	
+		//David Olofson  <david@olofson.net>
+
+Requirements
+------------
+
+SDL 1.2 and SDL_image1.2 is needed in order to build *ballfield*
+
+
+	sudo apt-get install libsdl1.2-dev libsdl-image1.2-dev
+
+
+
+Building for X64
+----------------
+
+	./configure
+	make
+
+run with:
+	
+	./ballfield
+
+
+Building for arm / arm64
+------------------------
+
+	./configure --build=arm
+	make
+
+run with:
+	
+	./ballfield
+
+
+## X64
+[![X64 screenshot](https://github.com/avafinger/ballfield-1.0/raw/master/img/ballfiled-3.png)]
+
+
+## Arm64
+[![Arm64 screenshot](https://github.com/avafinger/ballfield-1.0/raw/master/img/ballfiled-3.png)]
